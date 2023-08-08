@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-code-with-3432
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/skhileri-tenant/sdfdsf234/devfile-sample-code-with-3432@sha256:f64fa59b7e0759f73184beb1ec47c5e0d7e85902e5432d603639115e7b09d7f0
+        name: my-java-quarkus
+        resources: {}
+status: {}
